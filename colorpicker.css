@@ -10,3 +10,11 @@
   font-family: 'Georgia';
   font-weight: bold;
 }
+
+.halfrow{
+  background-color: #0D5D6C;
+  color: white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+}
