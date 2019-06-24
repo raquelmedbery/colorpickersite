@@ -1,0 +1,12 @@
+#coverimage {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+#title{
+  font-size: 4em;
+  color: #BE1C69;
+  font-family: 'Georgia';
+  font-weight: bold;
+}
