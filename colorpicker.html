@@ -56,8 +56,29 @@
     <div class="col-sm-2 color" id=color5>
     </div>
   </div>
+
+  <div class=row>
+    <div class="col-sm-12" id=pickacolor>
+      <button class="btn btn-default" onclick=randomColor()>Get Random Color</button>
+      <br><br>
+      <p id=colorGenerated></p>
+    </div>
+  </div>
 </div>
 
+<script>
+  function randomColor() {
+    var red = Math.floor(Math.random() * 256);
+    var green = Math.floor(Math.random() * 256);
+    var blue = Math.floor(Math.random() * 256);
+
+    //assign it to the background color of the pickacolor div
+    var divtoedit = document.getElementById('pickacolor')
+    divtoedit.style.backgroundColor = 'rgb(' +red + ',' + green + ',' + blue + ')';
+
+    //set the text to display the color information
+    document.getElementById('colorGenerated').innerHTML = 'rgb(' +red + ',' + green + ',' + blue + ')';
+  }
 
 </body>
 </html>

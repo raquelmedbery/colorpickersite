@@ -42,3 +42,10 @@
 .color {
   height: 25vh;
 }
+
+#pickacolor{
+  height: 60vh;
+  width: 100%;
+  padding-top: 30vh;
+  text-align: center;
+}
