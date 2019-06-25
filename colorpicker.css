@@ -1,3 +1,8 @@
+body{
+  background-color: rgb(14,116,216, .3);
+
+}
+
 #coverimage {
   width: 100%;
   height: 90vh;
@@ -48,4 +53,10 @@
   width: 100%;
   padding-top: 30vh;
   text-align: center;
+}
+
+#colorGenerator{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right:30px;
 }
